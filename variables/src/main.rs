@@ -36,15 +36,16 @@
 ///         .trim()
 ///         .parse()
 ///         .expect("Index entered was not a number");
+///
+
+///     let element = match a.get(index) {
+///         Some(val) => val,
+///         None => {println!("Index out of range!"); return;}
+///     };
+
+///     println!("The value of the element at index {index} is: {element}");
+/// }
 /// ```
-
-//     let element = match a.get(index) {
-//         Some(val) => val,
-//         None => {println!("Index out of range!"); return;}
-//     };
-
-//     println!("The value of the element at index {index} is: {element}");
-// }
 
 // fn main() {
 //     let x = plus_one(5);
